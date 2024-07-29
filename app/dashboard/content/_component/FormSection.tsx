@@ -27,7 +27,12 @@ function FormSection({ selectedTemplate, userForminput, loading }: PROPS) {
 	};
 	return (
 		<div className="p-5 shadow-md border rounded-lg bg-white">
-			<Image src={selectedTemplate?.icon} alt="icon" width={70} height={70} />
+			<Image
+				src={selectedTemplate?.icon as string}
+				alt="icon"
+				width={70}
+				height={70}
+			/>
 			<h2 className="font-semibold text-black text-2xl mb-2">
 				{selectedTemplate?.name}
 			</h2>
