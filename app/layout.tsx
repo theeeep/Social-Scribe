@@ -7,7 +7,7 @@ import { ThemeProvider } from "next-themes";
 const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://devdee.vercel.app/"),
+	metadataBase: new URL("https://socialsscribe.vercel.app/"),
 
 	title: "Social Scribe",
 	authors: {
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Social Scribe",
 		description: "AI-powered social brilliance",
-		url: "https://devdee.vercel.app/",
+		url: "https://socialsscribe.vercel.app/",
 		siteName: "Social Scribe",
 		images: "/og.png",
 		type: "website",
